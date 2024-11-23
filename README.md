@@ -32,8 +32,8 @@ Both forms utilize the POST method to submit data to the `MyServlet` servlet.
 ## Code Structure
 
 - **`index.html`:** Contains the HTML for both forms.
-- **`styles.css`:** (Not provided, but assumed) Includes the CSS styling for the webpage.
-- **`MyServlet.java`:** (Not provided, but crucial) The Java servlet that processes the form data. This servlet would handle the `doPost` method to retrieve the submitted values.
+- **`styles.css`:** Includes the CSS styling for the webpage.
+- **`MyServlet.java`:** The Java servlet that processes the form data. This servlet would handle the `doPost` method to retrieve the submitted values.
 
 ## Future Enhancements
 
