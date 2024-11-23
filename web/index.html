@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+  <head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css"> </head>
+
+  </head>
+  <body>
+    <h1>Complex Number Calculator  |  User Data Form </h1>
+
+    <div id="calculator-form" class="grid-item">
+      <h2>Complex Calculator</h2>
+      <form action="MyServlet" method="post">
+        Real part: <input type="number" name="real" required /><br /><br />
+        Imaginary part:
+        <input type="number" name="imaginary" required /><br /><br />
+        <input type="submit" value="Calculate" />
+      </form>
+    </div>
+
+    <div id="other-form" class="grid-item">
+      <h2>Other User Data Form</h2>
+      <form action="MyServlet" method="post">
+        Username: <input type="text" name="username" /><br /><br />
+        Gender:
+        <select name="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option></select
+        ><br /><br />
+        <label>
+          <input type="checkbox" name="terms" value="agree" /> I agree to the
+          terms and conditions
+        </label>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
